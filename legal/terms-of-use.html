@@ -1,0 +1,629 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Terms of Use</title><style>
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.highlight-default {
+}
+.highlight-gray {
+	color: rgb(155,154,151);
+}
+.highlight-brown {
+	color: rgb(100,71,58);
+}
+.highlight-orange {
+	color: rgb(217,115,13);
+}
+.highlight-yellow {
+	color: rgb(223,171,1);
+}
+.highlight-teal {
+	color: rgb(15,123,108);
+}
+.highlight-blue {
+	color: rgb(11,110,153);
+}
+.highlight-purple {
+	color: rgb(105,64,165);
+}
+.highlight-pink {
+	color: rgb(173,26,114);
+}
+.highlight-red {
+	color: rgb(224,62,62);
+}
+.highlight-gray_background {
+	background: rgb(235,236,237);
+}
+.highlight-brown_background {
+	background: rgb(233,229,227);
+}
+.highlight-orange_background {
+	background: rgb(250,235,221);
+}
+.highlight-yellow_background {
+	background: rgb(251,243,219);
+}
+.highlight-teal_background {
+	background: rgb(221,237,234);
+}
+.highlight-blue_background {
+	background: rgb(221,235,241);
+}
+.highlight-purple_background {
+	background: rgb(234,228,242);
+}
+.highlight-pink_background {
+	background: rgb(244,223,235);
+}
+.highlight-red_background {
+	background: rgb(251,228,228);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(55, 53, 47, 0.6);
+	fill: rgba(55, 53, 47, 0.6);
+}
+.block-color-brown {
+	color: rgb(100,71,58);
+	fill: rgb(100,71,58);
+}
+.block-color-orange {
+	color: rgb(217,115,13);
+	fill: rgb(217,115,13);
+}
+.block-color-yellow {
+	color: rgb(223,171,1);
+	fill: rgb(223,171,1);
+}
+.block-color-teal {
+	color: rgb(15,123,108);
+	fill: rgb(15,123,108);
+}
+.block-color-blue {
+	color: rgb(11,110,153);
+	fill: rgb(11,110,153);
+}
+.block-color-purple {
+	color: rgb(105,64,165);
+	fill: rgb(105,64,165);
+}
+.block-color-pink {
+	color: rgb(173,26,114);
+	fill: rgb(173,26,114);
+}
+.block-color-red {
+	color: rgb(224,62,62);
+	fill: rgb(224,62,62);
+}
+.block-color-gray_background {
+	background: rgb(235,236,237);
+}
+.block-color-brown_background {
+	background: rgb(233,229,227);
+}
+.block-color-orange_background {
+	background: rgb(250,235,221);
+}
+.block-color-yellow_background {
+	background: rgb(251,243,219);
+}
+.block-color-teal_background {
+	background: rgb(221,237,234);
+}
+.block-color-blue_background {
+	background: rgb(221,235,241);
+}
+.block-color-purple_background {
+	background: rgb(234,228,242);
+}
+.block-color-pink_background {
+	background: rgb(244,223,235);
+}
+.block-color-red_background {
+	background: rgb(251,228,228);
+}
+.select-value-color-default { background-color: rgba(206,205,202,0.5); }
+.select-value-color-gray { background-color: rgba(155,154,151, 0.4); }
+.select-value-color-brown { background-color: rgba(140,46,0,0.2); }
+.select-value-color-orange { background-color: rgba(245,93,0,0.2); }
+.select-value-color-yellow { background-color: rgba(233,168,0,0.2); }
+.select-value-color-green { background-color: rgba(0,135,107,0.2); }
+.select-value-color-blue { background-color: rgba(0,120,223,0.2); }
+.select-value-color-purple { background-color: rgba(103,36,222,0.2); }
+.select-value-color-pink { background-color: rgba(221,0,129,0.2); }
+.select-value-color-red { background-color: rgba(255,0,26,0.2); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="41969185-5c74-4ca7-9684-b0f4fc271f0d" class="page sans"><header><h1 class="page-title">Terms of Use</h1></header><div class="page-body"><p id="c0e66e81-e559-4bd6-b452-fb6e733e616a" class="">
+</p><p id="160ef16d-056c-4694-b0f6-b76d2d94ec9b" class="">Last update date: 31.10.2020</p><p id="77579b67-21cb-446b-af12-edaeb30a35d3" class="">
+</p><p id="b58d8abc-fa61-4160-8736-1ba3858a190a" class="">Thank you for showing interest in WidgetKid application (“<strong>Application</strong>,” “<strong>WidgetKid</strong>,” “<strong>we</strong>,” “<strong>us</strong>” or “<strong>our</strong>”). We take the security of our users very seriously and this will always be our top priority.</p><p id="946257a1-ebf7-406f-b566-1f58eb61c168" class="">These Terms of Use (these “<strong>Terms</strong>”) apply to all users and others who download, install, access or use (“<strong>Use</strong>” and “<strong>Users</strong>”, “<strong>you</strong>”, as applicable) our mobile application WidgetKid.</p><p id="c7130a9a-90d4-4198-a0dc-9c6cda36a6b9" class=""><strong>By downloading </strong><strong>WidgetKid</strong><strong>, you agree to these Terms. If you do not agree to these Terms</strong><strong>, </strong><strong>do not Use </strong><strong>WidgetKid</strong><strong>.</strong></p><p id="4e0f0301-629a-47cc-a3f7-3f10e8904753" class="">If you have any questions about these Terms or WidgetKid, please contact us (for contact information, please, see How to Contact Us Section).</p><h3 id="cddfa805-d559-46da-9e8c-03922243d585" class="">1. DESCRIPTION OF WIDGETKID</h3><p id="1e50ebe7-300e-40a5-b0f5-36242e2ffd4c" class="">WidgetKid is a mobile application for creation personalized widgets that you can add to your home screen or today view.</p><h3 id="ec2e740a-4b41-44e7-9eb6-5e7ff1cfb994" class="">2. ELIGIBILITY</h3><p id="1aebcc09-2a32-451e-b36c-ac178a17d99d" class=""><strong>General age limitation</strong>. You must be at least 13 years of age to Use WidgetKid. If you are under 18 years of age (or the age of legal majority where you live), you may only Use WidgetKid under the supervision of a parent or legal guardian who agrees to be bound by these Terms. If you are a parent or legal guardian of a User under the age of 18 (or the age of legal majority), you agree to be fully responsible for the acts or omissions of such User in connection with WidgetKid. If you are Using WidgetKid on behalf of another person or entity, you represent that you are authorized to accept these Terms on that person or entity’s behalf and that the person or entity agrees to be responsible to us if you or the other person or entity violates these Terms.</p><p id="eb10fccd-3c80-4da1-a130-005b5eea5b05" class=""><strong>Age limitation for the European Economic Area (“EEA”) residents</strong>. Due to requirements of the General Data Protection Regulation (“<strong>GDPR</strong>”) you shall be at least 16 years old in order to Use WidgetKid. To the extent prohibited by applicable law, we do not allow Use of WidgetKid by the EEA residents younger than 16 years old. If you are aware of anyone younger than 16 using WidgetKid, please contact us (for contact information, please, see How to Contact Us Section) and we will take reasonable steps to preclude such person from Using WidgetKid.</p><p id="c1114063-83d0-480f-8d8c-ae32842edd43" class="">You represent and warrant that you have the full power and authority to enter into this agreement and that in doing so you will not violate any other agreement to which you are a party and that you have not been previously suspended or removed from Using WidgetKid. You further agree to Use WidgetKid in compliance with all applicable laws. WidgetKid is not available to any Users previously prohibited from Using it.</p><h3 id="b6c36d39-c07d-4e72-8b0a-3df1a220043d" class="">3. PRIVACY</h3><p id="e98eb2b4-275a-418e-9c15-5254f07d855e" class="">Please refer to our <a href="https://www.widgetkid.app/legal/privacy-policy">Privacy Policy</a> for information about how we collect, use and disclose information about you when you Use WidgetKid.</p><h3 id="d9ebff1d-1da6-40e3-9048-fc901e1c9764" class="">4. USER CONTENT</h3><p id="fa004092-bbf9-4c29-aec7-980b7f780f52" class="">WidgetKid may allow you and other Users to create and store content, including photos, GIFs, fonts, clocks, calendar and battery level (collectively, “<strong>User Content</strong>”). User Content does not include User-generated tools. You retain all rights in and to your User Content, as between you and us.</p><p id="be0cc162-8988-451a-9bcc-7f33aa1a13a2" class="">You represent and warrant that: (i) you own the User Content edited and adjusted by you on or through WidgetKid; (ii) you agree to pay for all royalties, fees, and any other monies owed by reason of the User Content you edit and adjust on or through WidgetKid; and (iii) you have the legal right and capacity to enter into these Terms in your jurisdiction.</p><p id="5bc4ccd1-94ca-4903-aa39-d432d63be7df" class="">You may not create or store any User Content that violates these Terms. We will not be liable to you for any modification, suspension or discontinuation of WidgetKid, or the loss of any User Content.</p><p id="62db105e-1704-4279-8947-1cc0c53f7600" class="">You acknowledge that WidgetKid is supported by advertising revenue and may display advertisements and promotions, and you hereby agree that we may place such advertisements and promotions on WidgetKid or in conjunction with your User Content. The manner, mode and extent of such advertisements and promotions are subject to change without specific notice to you. You acknowledge that we may not always identify paid services, sponsored content, or commercial communications as such.</p><h3 id="20277b15-875c-45cc-9724-8ad23f000e0c" class="">5. PROHIBITED CONDUCT AND CONTENT</h3><p id="aad3950d-0ab9-4623-8342-78b49720d2fe" class="">You will not violate any applicable contract, intellectual property law or any other applicable law or other third-party rights (including the Application rights) or commit a tort, and you are solely responsible for your conduct while Using WidgetKid. You represent, warrant and agree that you will not Use WidgetKid by uploading the User Content or otherwise, or encourage or assist any other party to Use WidgetKid to:</p><ul id="5e8e16bc-fc27-4342-ab00-c9885987daad" class="bulleted-list"><li>Engage in any harmful, fraudulent, deceptive, harassing, threatening, intimidating, predatory, defamatory, obscene or stalking or otherwise objectionable conduct.</li></ul><ul id="47d4b3da-2db1-4a38-887a-e186bf227097" class="bulleted-list"><li>Use WidgetKid in any manner that could interfere with, disrupt, negatively affect or inhibit other Users from fully enjoying WidgetKid or that could damage, disable, overburden or impair the functioning of WidgetKid in any manner.</li></ul><ul id="bace7c13-e958-4475-9298-d92dc0c256a2" class="bulleted-list"><li>Decompile, reverse engineer any aspect of WidgetKid or do anything that might discover the source code or bypass or circumvent measures employed to prevent or limit your access to any part of WidgetKid.</li></ul><ul id="30a45869-99c4-4468-83b8-f864de7dcc15" class="bulleted-list"><li>Attempt to circumvent any content-filtering techniques we employ or attempt to access any feature or area of WidgetKid that you are not authorized to access.</li></ul><ul id="76ed2585-479c-4d23-9a65-9fcdbcb5e7da" class="bulleted-list"><li>Develop or Use any third-party applications that interact with WidgetKid without our prior written consent, including any scripts designed to scrape or extract data from WidgetKid.</li></ul><ul id="048a7675-5956-41ac-81ee-8c85fde84d5a" class="bulleted-list"><li>Use WidgetKid for any illegal or unauthorized purpose, or engage in, encourage or promote any activity that violates these Terms.</li></ul><p id="8dfd3ef5-4337-4bfa-9bae-abdb3cfd9ab9" class="">We reserve the right, in our discretion and at any time, to remove any User Content from WidgetKid or suspend or discontinue WidgetKid, introduce new features or impose limitations on certain features, or restrict access to WidgetKid.</p><h3 id="80cc8ddb-bb24-4ae7-8b36-99b8b5a067af" class="">6. IN-APP PURCHASES AND SUBSCRIPTIONS</h3><p id="713e6151-a017-4cb5-a040-77c16d3c28e8" class="">WidgetKid may include virtual services or tools that can be licensed for a fee, typically via in-app purchase (“<strong>Purchased Content</strong>”). You may only use the Purchased Content if you are over 18 years old, and only on a limited, personal, non-transferable, non-sublicensable and revocable basis for non-commercial use only. We reserve the right to manage, regulate, control, modify, or eliminate Purchased Content at any time (and in case of subscriptions, after a specified time under terms of a respective subscription). Upon the Purchased Content being available to you (and in case of subscriptions, after the Purchased Content has been available to you for a specified time under terms of a respective subscription), our obligations to provide the Purchased Content are deemed fulfilled, and we make no representation that the Purchased Content will be available to the purchaser for any length of time (otherwise as may be specified in terms of a respective subscription), nor that WidgetKid will continue to support the Purchased Content (otherwise as may be specified in terms of a respective subscription). <strong>SUBJECT TO MANDATORY LEGISLATION, YOU ACKNOWLEDGE THAT WE ARE NOT REQUIRED TO PROVIDE A REFUND FOR THE PURCHASED CONTENT FOR ANY REASON, AND THAT YOU WILL NOT RECEIVE MONEY OR OTHER COMPENSATION FOR THE UNUSED PURCHASED CONTENT, WHETHER YOUR LOSS WAS VOLUNTARY OR INVOLTARY</strong>.</p><h3 id="209e0462-6300-4554-a18c-d88ce3660ab5" class="">7. FEEDBACK</h3><p id="dad6310f-19ab-4240-abf4-e641e618185f" class="">Any questions, comments, suggestions, ideas, original or creative materials or other information you submit about us or WidgetKid (collectively, “<strong>Feedback</strong>”), is non-confidential and will become our sole property. We will own exclusive rights, including, without limitation, all intellectual property rights, in and to Feedback and will be entitled to the unrestricted use and dissemination of Feedback for any purpose, commercial or otherwise, without acknowledgment or compensation to you.</p><h3 id="0ef58807-cd80-4c26-977c-4bf44b8a5dbd" class="">8. INDEMNIFICATION</h3><p id="5d437301-e761-468f-ac14-26cb0044dbf1" class="">To the fullest extent permitted by applicable law, you will indemnify, defend, and hold harmless us and each of our respective officers, directors, agents, partners and employees (individually and collectively, “<strong>Application Parties</strong>”) from and against any loss, liability, claim, demand, damages, expenses or costs (“<strong>Claims</strong>”) arising out of or related to (i) your Use of WidgetKid; (ii) your User Content or Feedback; (iii) your violation of these Terms; (iv) your violation, misappropriation or infringement of any rights of another (including intellectual property rights or privacy rights); or (v) your conduct in connection with WidgetKid. You agree to promptly notify the Application Parties of any third party Claims, cooperate with the Application Parties in defending such Claims and pay all fees, costs and expenses associated with defending such Claims (including, but not limited to, attorneys’ fees). You also agree that the Application Parties will have control of the defense or settlement of any third party Claims. This indemnity is in addition to, and not in lieu of, any other indemnities set forth in a written agreement between you and us or the other Application Parties.</p><h3 id="4454514a-2112-45fb-b949-22ec6786f16c" class="">9. DISCLAIMERS</h3><p id="32edfa8e-10c9-4d40-a5ed-aa49d2d88302" class="">We do not control, endorse or take responsibility for any User Content or third-party content available on or linked to WidgetKid.</p><p id="bd467beb-8bb6-4fdc-a66d-bef2a9b41890" class="">Your Use of WidgetKid is at your sole risk. WidgetKid is provided “as is” and “as available” without warranties of any kind, either express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, title, and non-infringement. In addition, we do not represent or warrant that WidgetKid is accurate, complete, reliable, current or error-free. While we attempt to make your access to and Use of WidgetKid safe, we cannot and do not represent or warrant that WidgetKid is free of viruses or other harmful components. You assume the entire risk as to the quality and performance of WidgetKid.</p><h3 id="34467ba7-b420-40ee-8027-33bab3550c5e" class="">10. LIMITATION OF LIABILITY</h3><p id="fc939eb3-9340-4ac3-913c-a8ed67375c7e" class="">The Application and the other Application Parties will not be liable to you under any theory of liability — whether based in contract, tort, negligence, strict liability, warranty, or otherwise — for any indirect, consequential, exemplary, incidental, punitive or special damages or lost profits, even if you have been advised of the possibility of such damages.</p><p id="945d3d06-38bf-4ce0-8ac2-cfa8f5ca72d0" class="">The total liability of the Application and the other Application Parties, for any claim arising out of or relating to these Terms or WidgetKid, regardless of the form of the action, is limited to the amount paid, if any, by you to Use WidgetKid.</p><p id="ce33fe65-bf88-4876-8994-6d140320d6b7" class="">The limitations set forth in this Section will not limit or exclude liability for the gross negligence, fraud or intentional misconduct of the Application or the other Application Parties or for any other matters in which liability cannot be excluded or limited under applicable law. Additionally, some jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so the above limitations or exclusions may not apply to you.</p><h3 id="2321ba64-0ed5-48e2-b7d3-a1ac6587e8c4" class="">11. TRANSFER AND PROCESSING DATA</h3><p id="aac5750c-65c9-4fbf-9b5f-a1d9f03c23ae" class="">Transfer and storage of information about you, whilst you Use WidgetKid, is governed by our <a href="https://www.widgetkid.app/legal/privacy-policy">Privacy Policy</a>.</p><h3 id="be029b8a-745f-46eb-b6cb-11cd8782e7e3" class="">12. CHANGES TO THESE TERMS</h3><p id="cb4d66e9-a36d-4e1c-ac2f-e67382788378" class="">We may make changes to these Terms from time to time. If we make changes, we will post the amended Terms of WidgetKid and update the “Last update date” above. We may also attempt to notify you by providing notice through WidgetKid. Unless we say otherwise in our notice, the amended terms will be effective immediately and your continued Use of WidgetKid after we provide notice will confirm your acceptance of those changes. If you do not agree to the amended terms, you must stop Using WidgetKid.</p><h3 id="6d8ef8f9-b7e8-4f31-912e-2e22a809e43c" class="">13. ELECTRONIC COMMUNICATIONS</h3><p id="a31163ed-fa20-4831-9d95-29979e3169aa" class="">By Using WidgetKid, you also consent to receive electronic communications from us (e.g., via email or by posting notices on WidgetKid). You agree that any notices, agreements, disclosures or other communications that we send to you electronically will satisfy any legal communication requirements, including but not limited to that such communications shall be in writing.</p><h3 id="a4948b38-ba05-45d0-8fd2-7eff87af6453" class="">14. TERMINATION</h3><p id="166f3b87-e06f-42b1-ab8b-389d4732fb71" class="">We reserve the right, without notice and in our sole discretion, to terminate your right to Use WidgetKid. We are not responsible for any loss or harm related to your inability to Use WidgetKid.</p><h3 id="be0abe7f-6e9d-4be5-aa42-6727740f7c14" class="">15. SEVERABILITY</h3><p id="3f8e28b0-7559-4872-8808-815d4b62bed4" class="">If any provision or part of a provision of these Terms is unlawful, void or unenforceable, that provision or part of the provision is deemed severable from these Terms and does not affect the validity and enforceability of any remaining provisions.</p><h3 id="20192fbe-d79b-49dd-ab80-6581c8117854" class="">16. ADDITIONAL TERMS</h3><p id="c2f22528-69b8-4bd3-a2ff-8c96a1d92332" class="">The following terms apply if you Use WidgetKid on any device that contains the iOS mobile operating system (“<strong>App</strong>”) developed by Apple Inc. (“<strong>Apple</strong>”).</p><ul id="89f487a8-078a-4dde-911e-634cdbfb1382" class="bulleted-list"><li><strong>Acknowledgement</strong>. You acknowledge that these Terms are concluded solely between you, and not with Apple, and us, not Apple. We are solely responsible for the App and the content thereof. You further acknowledge that the usage rules for the App are subject to any additional restrictions set forth in the usage rules for the Apple App Store terms of service as of the date you download the App, and in the event of any conflict, the usage rules in the Apple App Store shall govern if they are more restrictive. You acknowledge and agree that you have had the opportunity to review the Apple usage rules.</li></ul><ul id="60059e4f-d455-45b5-b9ee-6317784c165e" class="bulleted-list"><li><strong>Scope of License</strong>. The license granted to you is limited to a non-transferable license to use the App on any iPhone, iPod touch or iPad that you own or control as permitted by the Apple usage rules set forth in the Apple App Store terms of service.</li></ul><ul id="59786d5a-b0df-4653-bf68-701ec94d97e6" class="bulleted-list"><li><strong>Maintenance and Support</strong>. You and us acknowledge that Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the App.</li></ul><ul id="4c80dc9b-7501-4aab-b249-9ccf06fc10e4" class="bulleted-list"><li><strong>Warranty</strong>. You acknowledge that Apple is not responsible for any product warranties, whether express or implied by law, with respect to the App. In the event of any failure of the App to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price, if any, paid to Apple for the App by you; and to the maximum extent permitted by applicable law, Apple will have no other warranty obligation whatsoever with respect to the App. You and the Application acknowledge that to the extent that there are any applicable warranties, any other claims, losses, liabilities, damages, costs or expenses attributable to any failure to conform to any such applicable warranty would be the sole responsibility of the Application. However, you understand and agree that in accordance with these Terms, the Application has disclaimed all warranties of any kind with respect to the App, and therefore, there are no warranties applicable to the App.</li></ul><ul id="695db7ad-4fd8-463f-8f1b-2ef1cf6f5d33" class="bulleted-list"><li><strong>Product Claims</strong>. You and the Application acknowledge that as between Apple and the Application, the Application, not Apple, is responsible for addressing any claims relating to the App or your possession and/or use of the App, including, but not limited to (i) product liability claims, (ii) any claim that the App fails to conform to any applicable legal or regulatory requirement, and (iii) claims arising under consumer protection or similar legislation.</li></ul><ul id="1a7d2e4f-d5d9-4391-a1c0-f707bc883257" class="bulleted-list"><li><strong>Intellectual Property Rights</strong>. You and the Application acknowledge that, in the event of any third party Claim that the App or your possession and Use of the App infringe third party’s intellectual property rights, the Application, and not Apple, will be solely responsible for the investigation, defense, settlement and discharge of any such intellectual property infringement Claim to the extent required under these Terms.</li></ul><ul id="5074cfdd-509f-45f9-a524-48c827249754" class="bulleted-list"><li><strong>Legal Compliance</strong>. You represent and warrant that (i) you are not located in a country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a “terrorist supporting” country, and (ii) you are not listed on any U.S. Government list of prohibited or restricted parties.</li></ul><ul id="7bd5f227-c735-4295-8516-fe7e6a440e08" class="bulleted-list"><li><strong>Developer Name and Address</strong>. Any questions, complaints or claims with respect to the App should be directed to <a href="mailto:support@widgetkid.app">support@widgetkid.app</a></li></ul><ul id="73e3c3e3-67f6-4c5b-a7a1-38b1a2189d74" class="bulleted-list"><li><strong>Third-Party Terms of Agreement</strong>. You agree to comply with any applicable third-party terms when Using WidgetKid.</li></ul><ul id="1c21de9b-bcd9-4261-b478-306b89af89c0" class="bulleted-list"><li><strong>Third-Party Beneficiary</strong>. You and the Application acknowledge and agree that Apple, and Apple’s subsidiaries, are third-party beneficiaries of these Terms, and that, upon your acceptance of these Terms, Apple will have the right (and will be deemed to have accepted the right) to enforce these Terms against you as a third-party beneficiary thereof).</li></ul><h3 id="6cdb3c86-ca70-4374-9eea-5ded7c0a18ca" class="">17. HOW TO CONTACT US</h3><p id="7ea03ef0-a041-4e05-86bb-159a48d0f7f1" class="">If you have any questions, complaints or claims with respect to this Privacy Policy or WidgetKid, please contact us via email at <a href="mailto:support@widgetkid.app">support@widgetkid.app</a></p><h3 id="3e268622-e7f5-4e04-bcee-a83637e196c9" class="">18. MISCELLANEOUS</h3><p id="7edb3209-0ade-43f6-b92c-14a30a1f7c3e" class="">These Terms constitute the entire agreement between you and us relating to your Use of WidgetKid. The failure of us to exercise or enforce any right or provision of these Terms will not operate as a waiver of such right or provision. The Section titles in these Terms are for convenience only and have no legal or contractual effect. Except as otherwise provided herein, these Terms are intended solely for the benefit of you and the Application and are not intended to confer third party beneficiary rights upon any other person or entity.</p></div></article></body></html>
